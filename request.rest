@@ -5,7 +5,15 @@
    "email":"mukesh@gmail.com",
    "password":"pass"
 }
-###
+###sign up
+POST http://localhost:4001/al/signUp
+Content-Type: application/json
+
+{
+    "username":"vani",
+    "email":"vani@gmail.com",
+    "password":"vani"
+}
 
 #########access token #######
 POST http://localhost:4001/al/login
